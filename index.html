@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Vendas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="headline">
+        Se livre das <span>rugas em 5 semanas</span>, sem remédios ou cirurgias,
+        com um <u>ingrediente descoberto pelos russos</u>
+      </div>
+      <div class="subheadline">
+        Segredo de décadas das mulheres russas para evitar rugas foi revelado!
+      </div>
+      <div class="video-container">
+        <!-- Substitua o link abaixo pelo link do vídeo -->
+        <iframe
+          src="https://www.youtube.com/embed/SeuVideoAqui"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <button class="cta-button" id="cta-button" style="display: none">
+        <a href="https://checkout.kiwify.com/seu-produto"
+          >QUERO ME LIVRAR DAS rugas!</a
+        >
+      </button>
+    </div>
+
+    <script>
+      // Script para exibir o botão com delay de 10 segundos
+      setTimeout(function () {
+        document.getElementById("cta-button").style.display = "block";
+      }, 10000); // 10 segundos
+    </script>
+  </body>
+</html>
